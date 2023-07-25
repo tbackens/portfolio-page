@@ -1,0 +1,4 @@
+.project-card:hover {
+    transition: transform 200ms ease-in-out;
+    transform: scale(110%);
+}
