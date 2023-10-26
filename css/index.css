@@ -1,4 +1,14 @@
+@media only screen and (max-width: 768px) {
+    .cap {
+        background-color: rgba(255, 255, 255, 0.644);
+        padding: 2px;
+    }
+}
+
+.project-card {
+    transition: 400ms;
+}
+
 .project-card:hover {
-    transition: transform 200ms ease-in-out;
-    transform: scale(110%);
+    transform: scale(105%);
 }
